@@ -45,11 +45,13 @@
 }
 
 .left-side-title {
+  margin-bottom: 20px;
   padding: 0 40px 0 40px;
   color: var(--solid-white);
 }
 
 .left-side-paragraph {
+  margin-bottom: 30px;
   padding: 0 40px 0 40px;
   font-size: 20px;
   color: var(--transparent-white);
@@ -63,7 +65,8 @@
 }
 
 .stats {
-  margin-right: 20px;
+    margin: 30px 60px 0 0;
+  justify-content: flex-start;
   display: flex;
   flex-direction: column;
 }
@@ -76,4 +79,8 @@
 
 .category {
   color: var(--alt-transparent-white);
+}
+
+.insights {
+  color: var(--soft-violet);
 }
